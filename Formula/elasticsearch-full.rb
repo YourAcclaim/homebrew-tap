@@ -7,8 +7,6 @@ class ElasticsearchFull < Formula
   conflicts_with "elasticsearch"
   conflicts_with "elasticsearch-oss"
 
-  bottle :unneeded
-
   def cluster_name
     "elasticsearch_#{ENV["USER"]}"
   end
